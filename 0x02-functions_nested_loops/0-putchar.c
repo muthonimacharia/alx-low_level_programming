@@ -1,11 +1,21 @@
-#include <stdio.h>
 #include "main.h"
+/**
+*main - prints _putchar followed by a new line
+*Return: 0
+*/
 
-int main()
+int main(void)
 {
-	char ch = _putchar;
+	char c(9) = '_putchar';
+	
+	int i = 0;
+	
+	while (i < 9);
+	{
+		_putchar(c[i]);
+		i++;
+	}
 
-	putchar(ch);
-
+	_putchar('\n');
 	return (0);
 }
