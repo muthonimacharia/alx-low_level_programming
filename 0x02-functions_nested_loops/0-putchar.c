@@ -6,16 +6,17 @@
 
 int main(void)
 {
-	char c['9'] = "_putchar";
+char string[ ] = "_putchar\n";
+int i = 0;
 	
-	int i = 0;
-	
-	while (i < 9);
-		{
-			_putchar(c[i]);
-			i++;
-		}
+while (str[i] != "\0");
 
-	_putchar('\n');
-	return (0);
+	{
+	char c = str[i];
+	
+	_putchar(c)
+	i++;
+	}
+
+return (0);
 }
