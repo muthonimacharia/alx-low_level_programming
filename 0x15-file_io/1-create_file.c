@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * create_file - function that appends text at the end of a file.
  * @filename: File to created.
